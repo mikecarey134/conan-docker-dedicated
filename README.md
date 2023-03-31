@@ -3,7 +3,7 @@ Dedicated Docker server for Conan Exiles Multipleyer
   -Uses Docker + Wine + steamcmd to run and keep server updated
   
 # How to run
-	-Pull down the repo
+  -Pull down the repo
   -Edit the exampleconfig.bat file
   -Run either build-docker-server.sh and run-docker-server.sh separately or both together by running build-and-run-docker-server.sh
 
