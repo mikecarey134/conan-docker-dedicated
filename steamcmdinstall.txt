@@ -1,0 +1,5 @@
+@sSteamCmdForcePlatformType windows
+force_install_dir /conan
+login anonymous
+app_update 443030 validate
+quit
