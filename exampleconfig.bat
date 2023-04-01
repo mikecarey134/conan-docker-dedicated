@@ -1,8 +1,10 @@
-GameServerPort=27015
-GameServerQueryPort=27016
-ServerName=YOURSERVERNAME
-MaxPlayers=20
-AdminPassword=YOURADMINPASSWORD
-MaxNudity=3
+set GameServerPort=27015
+set GameServerQueryPort=27016
+set ServerName="YOURSERVERNAME"
+set MaxPlayers=20
+set AdminPassword=YOURADMINPASSWORD
+set MaxNudity=3
+set ServerPassword=YOURSERVERPASSWORD
 
-ConanSandboxServer.exe "ConanSandbox?Multihome=X.X.X.X?GameServerPort=%GameServerPort%?GameServerQueryPort=%GameServerQueryPort%?ServerName=%ServerName%?MaxPlayers=%MaxPlayers%?listen?AdminPassword=%AdminPassword%?MaxNudity=%MaxNudity%" -nosteamclient -game -server -log 
+ConanSandboxServer.exe "ConanSandbox?GameServerPort=%GameServerPort%?GameServerQueryPort=%GameServerQueryPort%?ServerName=%ServerName%?MaxPlayers=%MaxPlayers%?listen?AdminPassword=%AdminPassword%?ServerPassword=%ServerPassword%?MaxNudity=%MaxNudity%" -nosteamclient -game -server -log 
+
