@@ -17,6 +17,7 @@ As of right now there are only the basics setup here you can append more setting
 * MaxPlayers=20
 * AdminPassword=YOURADMINPASSWORD
 * MaxNudity=3
+* ServerPassword=YOURSERVERPASSWORD
 
 # Done
 Look for your server name in multiplayer servers in Conan Exiles
