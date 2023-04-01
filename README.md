@@ -16,7 +16,6 @@ As of right now there are only the basics setup here you can append more setting
 * ServerName=YOURSERVERNAME
 * MaxPlayers=20
 * AdminPassword=YOURADMINPASSWORD
-* MaxNudity=3
 * ServerPassword=YOURSERVERPASSWORD
 
 # Done
