@@ -13,7 +13,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 
 VOLUME ["/conan", "/steamcmd", "/winedata"]
 
-EXPOSE 7777/tcp 7777/udp 27015/tcp 27015/udp 27016/tcp 27016/udp
+EXPOSE 7777/tcp 7777/udp 7778/tcp 7778/udp 27015/tcp 27015/udp 27016/tcp 27016/udp
 
 RUN dpkg --add-architecture i386 \
     && apt-get update \
